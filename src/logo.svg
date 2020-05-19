@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3">
+  <g fill="#FF5">
+    <circle cx="420.9" cy="296.5" r="200"/>
+    <line
+    x1="320.9"
+    y1="230"
+    x2="320.9"
+    y2="360"
+    style="stroke:rgb(136, 0, 255); stroke-width:10" />
+    <line
+    x1="420.9"
+    y1="230"
+    x2="420.9"
+    y2="360"
+    style="stroke:rgb(136, 0, 255); stroke-width:10" />
+    <line
+    x1="520.9"
+    y1="230"
+    x2="520.9"
+    y2="360"
+    style="stroke:rgb(136, 0, 255); stroke-width:10" />
+  </g>
+</svg>

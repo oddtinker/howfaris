@@ -1,0 +1,32 @@
+.Loading {
+  min-height: 40vh;
+  height: 90vh;
+  pointer-events: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Loading p {
+  font-size: calc(10px + 3vmin);
+  font-weight: bold;
+  color: rgb(136, 0, 255);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .AppLogo {
+    animation: AppLogo-spin infinite 10s linear;
+  }
+}
+
+@keyframes AppLogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
