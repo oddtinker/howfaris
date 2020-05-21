@@ -1,0 +1,12 @@
+.Main {
+  padding-top: 20vmin;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: space-around;
+  height: 60vmin;
+}
+
+.Main div {
+  margin: 2vh;
+}

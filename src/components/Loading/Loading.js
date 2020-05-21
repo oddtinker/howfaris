@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../../logo.svg';
 import classes from './Loading.module.css';
+import Logo from '../Logo/Logo';
 
 const loading = () => {
   return (
     <div className={classes.Loading}>
-      <img src={logo} className={classes.AppLogo} alt="logo" />
+      <Logo isRotating={true} width="200vh" />
       <p>Loading...</p>
     </div>
   );

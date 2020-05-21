@@ -1,0 +1,17 @@
+.Footer {
+  background-color: pink;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.Footer p {
+  color: rgb(136, 0, 255);
+  font-weight: bolder;
+}
+
+.Footer a:hover {
+  color: rgb(255, 255, 51);
+}

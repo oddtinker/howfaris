@@ -1,0 +1,17 @@
+.Logo {
+  padding-top: 2px;
+  padding-bottom: 0;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.LogoSpinning {
+  animation: spin 10s linear infinite;
+}
