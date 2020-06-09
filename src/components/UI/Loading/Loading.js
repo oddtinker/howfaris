@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Loading.module.css';
-import Logo from '../Logo/Logo';
+import Logo from '../../Logo/Logo';
 
 const loading = () => {
   return (

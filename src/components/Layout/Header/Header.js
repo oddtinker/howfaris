@@ -5,8 +5,8 @@ import Button from '../../UI/Button/Button';
 
 const header = (props) => (
   <header className={classes.Header}>
-    <Button clickHandler={props.handleBackdrop} buttonText="About" />
-    <Logo isRotating={false} width="60vh"/>
+    <Button buttonStylingType="header" clickHandler={props.handleBackdrop} buttonText="About" />
+    <Logo isRotating={false} width="60vw"/>
   </header>
 );
 

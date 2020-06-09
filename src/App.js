@@ -13,7 +13,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     if (this.state.isLoading) {
-      setTimeout(() => this.setState({ isLoading: false }), 1500);
+      setTimeout(() => this.setState({ isLoading: false }), 500);
     }
   }
   backdropHandler = () => {

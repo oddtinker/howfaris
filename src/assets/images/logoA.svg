@@ -1,7 +1,7 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 240 240">
-    <circle cx="120" cy="120" r="120" fill="#FF5"/>
+    <circle cx="120" cy="120" r="108" fill="#FF5"/>
     <line
     x1="60"
     y1="80"

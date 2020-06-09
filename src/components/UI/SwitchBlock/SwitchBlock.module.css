@@ -1,0 +1,11 @@
+.SwitchBlock {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+}
+
+.Sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0;
+}

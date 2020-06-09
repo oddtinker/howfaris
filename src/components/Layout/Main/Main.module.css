@@ -1,12 +1,25 @@
 .Main {
-  padding-top: 20vmin;
+  text-align: center;
+  padding: 10vmin;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   align-content: space-around;
+  justify-content: space-around;
   height: 60vmin;
 }
 
-.Main div {
+.Main h1 {
+  font-size: x-large;
   margin: 2vh;
+}
+
+.Main h2 {
+  font-size: large;
+  margin: 2vh;
+}
+
+.SwitchesGroup {
+  display: flex;
+  flex-direction: row;
 }
