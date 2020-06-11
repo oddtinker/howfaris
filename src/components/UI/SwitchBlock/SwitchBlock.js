@@ -3,13 +3,15 @@ import classes from './SwitchBlock.module.css';
 import RadioInput from '../RadioInput/RadioInput';
 
 const switchBlock = props => {
-  let data = props.dataList.map(item => <RadioInput
-    key={item + props.dataList.indexOf(item)}
+  let data = props.options.map((item, index) => <RadioInput
+    key={index}
     buttonStylingType="switchBlock"
-    radioInputLabel={item}
-    radioGroupName={props.dataList}
-    radioInputID={item}
-    changeHandler={props.changeHandler} />);
+    radioInputLabel={item.distanceM}
+    radioGroupName="dataOptions"
+    radioInputID={item.distanceM}
+    changeHandler={props.changeHandler}
+    currentChoice={props.currentChoice}
+    entities={item.entities} />);
   return (
     <form
     className={props.switchType === 'sidebar' ? classes.Sidebar : classes.SwitchBlock}>

@@ -4,8 +4,8 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  align-content: space-around;
-  justify-content: space-around;
+  /* align-content: space-around; */
+  /* justify-content: space-around; */
   height: 50vmin;
 }
 
@@ -18,8 +18,3 @@
   font-size: large;
   margin: 2vh;
 }
-
-/* .SwitchesGroup {
-  display: flex;
-  flex-direction: row;
-} */

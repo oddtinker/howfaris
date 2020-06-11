@@ -4,7 +4,11 @@ import Button from '../../UI/Button/Button';
 
 const footer = () => (
   <footer className={classes.Footer}>
-    <a href="https://github.com/larisachristie/howfaris" target="_blank" rel="noopener noreferrer">
+    <a
+      href="https://github.com/larisachristie/howfaris"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Hire me!">
       <Button buttonText="GitHub" buttonStylingType="footer"/>
       </a>
   </footer>

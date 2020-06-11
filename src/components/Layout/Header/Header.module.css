@@ -11,6 +11,7 @@
   background-color: rgb(168, 70, 255);
   font-size: 10px;
   color: rgb(251, 247, 254);
+  z-index: 1000;
 }
 
 /* background-color: #ffffff;

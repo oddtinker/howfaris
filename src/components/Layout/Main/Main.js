@@ -5,23 +5,36 @@ import Slideshow from '../../Slideshow/Slideshow';
 
 class Main extends Component {
   state = {
-    entities: ['WHO / EU', 'US', 'UK', 'DE'],
-    distances: ['1 meter', '1.5 meters', '2 meters'],
-    // distances: [[1, 3], [1.5, 4], [2, 6]],
-    // metrics: ['meters', 'feet'],
+    options: [
+      {
+        distanceM: '1 meter',
+        distanceF: '3 feet',
+        entities: 'the WHO, the EU'
+      },
+      {
+        distanceM: '1.5 meters',
+        distanceF: '4 feet',
+        entities: 'Australia, Germany'
+      },
+      {
+        distanceM: '2 meters',
+        distanceF: '6 feet',
+        entities: 'Canada, the UK, the US'
+      },
+    ],
     currentChoice: '',
   };
   choiceHandler = event => {
     const chosenDistance =  event.target.value;
     this.setState({ currentChoice: chosenDistance });
-    console.log(event.target);
   }
   render() {
     return (
     <main className={classes.Main}>
       <h1>How far is... {this.state.currentChoice}?</h1>
       <SwitchBlock
-        dataList={this.state.distances}
+        options={this.state.options}
+        currentChoice={this.state.currentChoice}
         changeHandler={this.choiceHandler}/>
       <Slideshow currentChoice={this.state.currentChoice} />
     </main>

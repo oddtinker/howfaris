@@ -2,11 +2,11 @@ import React from 'react';
 import classes from './Loading.module.css';
 import Logo from '../../Logo/Logo';
 
-const loading = () => {
+const loading = (props) => {
   return (
     <div className={classes.Loading}>
       <Logo isRotating={true} width="200vh" />
-      <p>Loading...</p>
+      <p>{props.loadingText}</p>
     </div>
   );
 }

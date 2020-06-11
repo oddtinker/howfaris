@@ -7,26 +7,27 @@
   <style type="text/css">
     #bed {
       stroke: black;
-      stroke-width: 2;
-    }
-    #bed rect:nth-child(2) {
-      fill: url(#duvet);
       stroke-width: 3;
+      stroke-linecap: round;
+    }
+    #bed rect {
+      stroke-width: 1;
+      fill: url(#duvet);
     }
     polygon {
       fill: #ffff55;
     }
   </style>
   <defs>
-    <linearGradient id="duvet" gradientTransform="scale(0.6) rotate(-10)">
-      <stop stop-color="#ffffff" offset="0.5" />
+    <linearGradient id="duvet" gradientTransform="scale(0.6) rotate(-5)">
+      <stop stop-color="#ffffff" offset="0.4" />
       <stop stop-color="#8800ff" offset="0.9" />
     </linearGradient>
   </defs>
+  <polygon points="2,30 20,34 42,69 2,69" />
   <g id="bed">
-    <rect x="0" y="0" width="2" height="130" />
-    <rect x="1" y="70" width="200" height="30" />
-    <rect x="200" y="70" width="2" height="60" />
+    <rect x="2" y="70" width="198" height="30" />
+    <path d="M2,2 L2 128 M200,60 L200 128" />
   </g>
-  <polygon points="3,30 3,68 50,68" />
+  
 </svg>

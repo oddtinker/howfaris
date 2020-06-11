@@ -20,8 +20,8 @@ class Slideshow extends Component {
     if (this.props.currentChoice === '1 meter') {
       content = images1.map((item, index) => {
         return (
-          <div className={classes.SlideshowBox}>
-            <img key={index} src={item.file} alt={item.title}/>
+          <div className={classes.SlideshowBox} key={index}>
+            <img src={item.file} alt={item.title}/>
             <h3>{item.title}</h3>
           </div>
       )});
@@ -29,8 +29,8 @@ class Slideshow extends Component {
     if (this.props.currentChoice === '1.5 meters') {
       content = images15.map((item, index) => {
         return (
-          <div className={classes.SlideshowBox}>
-            <img key={index} src={item.file} alt={item.title}/>
+          <div className={classes.SlideshowBox} key={index}>
+            <img src={item.file} alt={item.title}/>
             <h3>{item.title}</h3>
           </div>
       )});
@@ -38,14 +38,14 @@ class Slideshow extends Component {
     if (this.props.currentChoice === '2 meters') {
       content = images2.map((item, index) => {
         return (
-          <div className={classes.SlideshowBox}>
-            <img key={index} src={item.file} alt={item.title}/>
+          <div className={classes.SlideshowBox} key={index}>
+            <img src={item.file} alt={item.title}/>
             <h3>{item.title}</h3>
           </div>
       )});
     }
     return (
-      !content ? null :
+      !content ? <Loading loadingText="Choose the distance above!" /> :
       <React.Fragment>
         <div className={classes.Slideshow}>
           <div className={classes.SlideshowControls} id="leftControl"></div>

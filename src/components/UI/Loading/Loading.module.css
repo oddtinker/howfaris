@@ -1,16 +1,20 @@
 .Loading {
-  padding-top: 20vmin;
-  height: 100%;
+  padding-top: 4vmin;
   pointer-events: none;
   background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .Loading p {
-  font-size: calc(10px + 3vmin);
+  font-size: calc(10px + 2vmin);
   color: rgb(136, 0, 255);
+}
+
+.Loading img {
+  width: 20vw;
+  max-width: 30vw;
 }

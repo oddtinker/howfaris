@@ -6,7 +6,11 @@ const images1 = [
   {
     file: trolley,
     title: 'Average shopping cart',
-  }
+  },
+  // {
+  //   file: trolley,
+  //   title: 'Average shopping cart 2',
+  // }
 ];
 
 const images15 = [
