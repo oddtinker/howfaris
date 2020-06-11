@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="202px"
+  height="130px"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title xml:lang="en">Standard bed, approximately 2 meters long</title>
+  <style type="text/css">
+    #bed {
+      stroke: black;
+      stroke-width: 2;
+    }
+    #bed rect:nth-child(2) {
+      fill: url(#duvet);
+      stroke-width: 3;
+    }
+    polygon {
+      fill: #ffff55;
+    }
+  </style>
+  <defs>
+    <linearGradient id="duvet" gradientTransform="scale(0.6) rotate(-10)">
+      <stop stop-color="#ffffff" offset="0.5" />
+      <stop stop-color="#8800ff" offset="0.9" />
+    </linearGradient>
+  </defs>
+  <g id="bed">
+    <rect x="0" y="0" width="2" height="130" />
+    <rect x="1" y="70" width="200" height="30" />
+    <rect x="200" y="70" width="2" height="60" />
+  </g>
+  <polygon points="3,30 3,68 50,68" />
+</svg>

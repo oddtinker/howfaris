@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Loading from '../../UI/Loading/Loading';
 import classes from './Main.module.css';
 import SwitchBlock from '../../UI/SwitchBlock/SwitchBlock';
+import Slideshow from '../../Slideshow/Slideshow';
 
 class Main extends Component {
   state = {
@@ -9,25 +9,21 @@ class Main extends Component {
     distances: ['1 meter', '1.5 meters', '2 meters'],
     // distances: [[1, 3], [1.5, 4], [2, 6]],
     // metrics: ['meters', 'feet'],
-    currentChoice: [],
+    currentChoice: '',
   };
   choiceHandler = event => {
-    const chosenDistance =  event.target.innerText;
+    const chosenDistance =  event.target.value;
     this.setState({ currentChoice: chosenDistance });
-    console.log(event);
+    console.log(event.target);
   }
   render() {
-    // const currentDistanceChoice = this.state.currentChoice.join(' ');
     return (
-    this.props.isLoading ? <Loading /> :
     <main className={classes.Main}>
       <h1>How far is... {this.state.currentChoice}?</h1>
-      <div className={classes.SwitchesGroup}>
-        <SwitchBlock
+      <SwitchBlock
         dataList={this.state.distances}
-        clickHandler={this.choiceHandler}/>
-      </div>
-      <div>SLIDESHOW PLACEHOLDER</div>
+        changeHandler={this.choiceHandler}/>
+      <Slideshow currentChoice={this.state.currentChoice} />
     </main>
 )}};
 

@@ -6,7 +6,7 @@
   align-items: center;
   align-content: space-around;
   justify-content: space-around;
-  height: 60vmin;
+  height: 50vmin;
 }
 
 .Main h1 {
@@ -19,7 +19,7 @@
   margin: 2vh;
 }
 
-.SwitchesGroup {
+/* .SwitchesGroup {
   display: flex;
   flex-direction: row;
-}
+} */

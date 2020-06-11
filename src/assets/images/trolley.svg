@@ -1,0 +1,46 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="202px"
+  height="130px"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title xml:lang="en">Average shopping cart</title>
+  <style type="text/css">
+    #wheel {
+      fill: url(#wheelGradient);
+    }
+    #cart {
+      stroke: black;
+      stroke-width: 2px;
+      fill: transparent;
+      stroke-linecap: round;
+    }
+    polygon {
+      stroke: #8800ff;
+    }
+    #net {
+      stroke: #ffff55;
+      stroke-width: 1px;
+    }
+  </style>
+  <defs>
+    <circle id="wheel" cy="119" r="10" />
+    <radialGradient id="wheelGradient" fx="0.5" fy="0.5">
+      <stop stop-color="#8800ff" offset="0.1" />
+      <stop stop-color="#ffff55" offset="0.3" />
+      <stop stop-color="#8800ff" offset="0.9" />
+    </radialGradient>
+  </defs>
+  <g>
+    <use xlink:href="#wheel" x="50" />
+    <use xlink:href="#wheel" x="162" />
+    <g id="cart">
+      <path d="M50 119 L162 119" />
+      <g id="net">
+        <path d="M60,41 L60 89 M73,41 L73 89 M86,41 L86 89 M99,41 L99 89 M112,41 L112 89 M125,41 L125 89 M138,41 L138 89 M151,41 L151 80 M164,41 L164 60" />
+        <path d="M50,52 L169 52 M53,65 L161 65 M56,78 L153 78" />
+      </g>
+      <polygon points="58,90 47,40 177,40 146,90" />
+      <path d="M50 119 L60 100 L44 26 L34 22" />
+    </g>
+  </g>
+</svg>

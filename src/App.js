@@ -8,13 +8,7 @@ import Modal from './components/UI/Modal/Modal';
 
 class App extends React.Component {
   state = {
-    isLoading: true,
     isBackdropDown: false,
-  }
-  componentDidMount() {
-    if (this.state.isLoading) {
-      setTimeout(() => this.setState({ isLoading: false }), 500);
-    }
   }
   backdropHandler = () => {
     this.setState(prev => {
@@ -31,8 +25,7 @@ class App extends React.Component {
         isBackdropDown={this.state.isBackdropDown}>
           <About handleBackdrop={this.backdropHandler}/>
         </Modal>
-        <Main
-        isLoading={this.state.isLoading}/>
+        <Main />
         <Footer />
       </div>
     );

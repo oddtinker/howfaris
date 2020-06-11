@@ -1,6 +1,7 @@
 .SwitchBlock {
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0;
 }
 

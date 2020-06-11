@@ -9,9 +9,10 @@ const switchBlock = props => {
     radioInputLabel={item}
     radioGroupName={props.dataList}
     radioInputID={item}
-    clickHandler={props.clickHandler} />);
+    changeHandler={props.changeHandler} />);
   return (
-    <form className={props.switchType === 'sidebar' ? classes.Sidebar : classes.SwitchBlock}>
+    <form
+    className={props.switchType === 'sidebar' ? classes.Sidebar : classes.SwitchBlock}>
       {data}
     </form>
 )};

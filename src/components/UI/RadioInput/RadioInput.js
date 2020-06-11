@@ -3,13 +3,15 @@ import classes from './RadioInput.module.css';
 
 const radioInput = props => (
   <div className={classes.RadioInput}>
+    <label
+    htmlFor={props.radioInputID.split(' ').join('')}
+    onChange={(e) => props.changeHandler(e)}>
     <input
-    onClick={props.clickHandler}
     type="radio"
     name={props.radioGroupName}
-    id={props.radioInputID}
-    />
-    <label htmlFor={props.radioInputID}>{props.radioInputLabel}</label>
+    id={props.radioInputID.split(' ').join('')}
+    value={props.radioInputLabel}
+    /><br />{props.radioInputLabel}</label>
   </div>
 )
 
