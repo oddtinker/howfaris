@@ -1,0 +1,40 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="202px"
+  height="140px"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title xml:lang="en">A person in warrior pose</title>
+  <style type="text/css">
+    circle {
+      fill: url(#gradient);
+    }
+    line, path {
+      stroke-width: 4px;
+      stroke: black;
+      fill: transparent;
+    }
+    #liner {
+      stroke-width: 2px;
+      stroke: black;
+    }
+    #tick {
+      stroke-width: 2px;
+      stroke: #8800ff;
+    }
+  </style>
+  <defs>
+    <radialGradient id="gradient" fx="0.75" fy="0.4">
+      <stop stop-color="#8800ff" offset="0.05" />
+      <stop stop-color="#ffff55" offset="0.2" />
+      <stop stop-color="#8800ff" offset="0.9" />
+    </radialGradient>
+  </defs>
+  <circle cx="101" cy="40" r="11" />
+  <line x1="62" y1="56" x2="136" y2="56" />
+  <path d="M94 56 L108,56 L108,98 L94,98 z" />
+  <line x1="94" y1="98" x2="136" y2="98" />
+  <line x1="134" y1="98" x2="134" y2="122" />
+  <line x1="94" y1="98" x2="50" y2="122" />
+  <line id="tick" x1="99" y1="12" x2="99" y2="17" />
+  <path id="liner" d="M63 20 L63,12 L135,12 L135,20" />
+</svg>
