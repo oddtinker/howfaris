@@ -7,27 +7,40 @@
   <style type="text/css">
     #bed {
       stroke: black;
-      stroke-width: 3;
+      stroke-width: 2;
+      fill: white;
       stroke-linecap: round;
     }
-    #bed rect {
-      stroke-width: 1;
-      fill: url(#duvet);
+    #mattress {
+      stroke-linecap: round;
+      fill: rgb(136, 0, 255);
     }
-    polygon {
+    #mattress :first-child {
+      stroke: black;
+      stroke-width: 0.5;
+    }
+    #pillow {
+      stroke-linecap: butt;
       fill: #ffff55;
+      stroke: black;
+      stroke-width: 0.5;
     }
   </style>
-  <defs>
+  <!-- <defs>
     <linearGradient id="duvet" gradientTransform="scale(0.6) rotate(-5)">
       <stop stop-color="#ffffff" offset="0.4" />
-      <stop stop-color="#8800ff" offset="0.9" />
+      <stop stop-color="rgb(136, 0, 255)" offset="0.9" />
     </linearGradient>
-  </defs>
-  <polygon points="2,30 20,34 42,69 2,69" />
+  </defs> -->
+  <path id="pillow" d="M9,58 C0,40 66,40 57,58" />
+  <g id="mattress">
+    <polygon points="5,61 8,57 194,57 197,61" />
+    <rect x="6" y="60" width="190" height="20" />
+  </g>
   <g id="bed">
     <rect x="2" y="70" width="198" height="30" />
-    <path d="M2,2 L2 128 M200,60 L200 128" />
+    <rect x="1" y="2" width="4" height="126" />
+    <rect x="197" y="60" width="4" height="66" />
   </g>
   
 </svg>

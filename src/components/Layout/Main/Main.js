@@ -18,7 +18,7 @@ class Main extends Component {
       },
       {
         distanceM: '2 meters',
-        distanceF: '6 feet',
+        distanceF: 'just over 6 feet',
         entities: 'Canada, the UK, the US'
       },
     ],

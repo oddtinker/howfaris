@@ -16,6 +16,9 @@ const button = (props) => {
     case 'switchBlock':
       concatenatedClasses.push(classes.SwitchBlockButton);
       break;
+    case 'slideshowControls':
+      concatenatedClasses[0] = classes.SlideshowControls;
+      break;
     default:
       break;
   }

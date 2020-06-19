@@ -8,12 +8,10 @@
   min-width: 250px;
   min-height: 200px;
   width: 50vw;
-  /* height: 100%; */
+  height: 100%;
   border: 1px solid gainsboro;
-}
-
-.SlideshowBox > img {
-  padding-top: 10px;
+  overflow: hidden;
+  display: none;
 }
 
 .SlideshowBox > h3 {
@@ -26,13 +24,8 @@
   border-style: solid;
 }
 
-.SlideshowControls:first-of-type {
-  border-width: 110px 40px 110px 0;
-  border-color: transparent rgba(212, 164, 164, 0.466) transparent transparent;
+.Active {
+  position: relative;
+  display: initial;
+  z-index: 10;
 }
-
-.SlideshowControls:last-of-type {
-  border-width: 110px 0 110px 40px;
-  border-color: transparent transparent transparent rgba(212, 164, 164, 0.466);
-}
-

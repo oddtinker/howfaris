@@ -3,6 +3,7 @@
   background-color: transparent;
   text-align: center;
   border: none;
+  cursor: pointer;
 }
 
 .HeaderButton {
@@ -76,4 +77,19 @@
 
 .SwitchBlockButton:hover:active {
   box-shadow: inset 0 0 1px rgb(168, 70, 255);
+}
+
+.SlideshowControls {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.SlideshowControls:first-of-type {
+  border-width: 110px 40px 110px 0;
+  border-color: transparent rgba(212, 164, 164, 0.466) transparent transparent;
+}
+
+.SlideshowControls:last-of-type {
+  border-width: 110px 0 110px 40px;
+  border-color: transparent transparent transparent rgba(212, 164, 164, 0.466);
 }

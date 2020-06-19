@@ -8,3 +8,8 @@ Sources:
 * [Health Canada](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html?topic=tilelink)
 * [New Zealand Ministry of Health](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-health-advice-general-public/protecting-yourself-and-others-covid-19#physicaldistancing)
 * [Australian Government, Department of Health](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/how-to-protect-yourself-and-others-from-coronavirus-covid-19/physical-distancing-for-coronavirus-covid-19)
+
+Object measurements reference:
+* [Dimensions.com](https://www.dimensions.com/)
+* [Bike Gremlin](https://bike.bikegremlin.com/832/bicycle-frame-geometry/#4)
+* [Designer’s guide to COVID-19: Physical distancing, by Raimana Jones ](https://architecturenow.co.nz/articles/designers-guide-to-covid-19-physical-distancing/)
