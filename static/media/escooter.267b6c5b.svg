@@ -1,0 +1,62 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="202px"
+  height="140px"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title xml:lang="en">For-rent electric scooter</title>
+  <style type="text/css">
+    #wheel {
+      fill: url(#wheelGradient);
+    }
+    #bottom {
+      stroke: black;
+      stroke-width: 5px;
+      fill: transparent;
+      stroke-linecap: round;
+    }
+    #stick {
+      stroke-width: 4px;
+      stroke: #333333;
+      stroke-linecap: round;
+    }
+    #stick :last-child {
+      stroke-linecap: butt;
+      stroke: #8800ff;
+    }
+    #hood {
+      stroke: black;
+      stroke-width: 2px;
+      fill: #444444;
+      stroke-linecap: round;
+    }
+    #handle {
+      stroke-width: 4px;
+      stroke: #444444;
+      stroke-linecap: round;
+    }
+  </style>
+  <defs>
+    <circle id="wheel" cy="120" r="10" />
+    <path id="hood" d="m0,0 a11,13 0 0,1 20,0" />
+    <radialGradient id="wheelGradient" fx="0.5" fy="0.5">
+      <stop stop-color="#8800ff" offset="0.3" />
+      <stop stop-color="#ffff55" offset="0.6" />
+      <stop stop-color="#8800ff" offset="0.9" />
+    </radialGradient>
+  </defs>
+  <g>
+    <use xlink:href="#wheel" x="50" />
+    <use xlink:href="#wheel" x="162" />
+    <use xlink:href="#hood" x="40" y="118" />
+    <use xlink:href="#hood" x="152" y="118" />
+  </g>
+  <g id="stick">
+    <path d="M162 120 L140,16" />
+    <path d="M150 63 L143,30" />
+  </g>
+  <path id="handle" d="M118,18 L160,12" />
+  <g id="bottom">
+    <path d="M50 120 L146 120" />
+    <path d="M146 120 q-2,-14 14,-16" />
+  </g>
+</svg>

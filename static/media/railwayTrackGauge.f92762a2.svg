@@ -1,0 +1,39 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="202px"
+  height="140px"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title xml:lang="en">Standard-gauge railway</title>
+  <style type="text/css">
+    #horizontal, #vertical {
+      stroke: #8800ff;
+      stroke-width: 4px;
+      fill: white;
+    }
+    #vertical {
+      fill: white;
+      stroke: black;
+      stroke-width: 4px;
+    }
+    #liner {
+      stroke-width: 2px;
+      fill: transparent;
+      stroke: black;
+    }
+    #tick {
+      stroke-width: 2px;
+      stroke: #8800ff;
+    }
+  </style>
+  <g id="horizontal">
+    <rect x="60" y="45" width="80" height="10" />
+    <rect x="60" y="70" width="80" height="10" />
+    <rect x="60" y="95" width="80" height="10" />
+  </g>
+  <g id="vertical">
+    <rect x="72" y="30" width="8" height="90" />
+    <rect x="120" y="30" width="8" height="90" />
+  </g>
+  <line id="tick" x1="100" y1="133" x2="100" y2="138" />
+  <path id="liner" d="M76 130 L76,138 L124,138 L124,130" />
+</svg>
