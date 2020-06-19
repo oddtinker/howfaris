@@ -1,7 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="202px"
-  height="130px"
+  height="140px"
   xmlns:xlink="http://www.w3.org/1999/xlink">
   <title xml:lang="en">Average shopping cart</title>
   <style type="text/css">
@@ -10,16 +10,16 @@
     }
     #cart {
       stroke: black;
-      stroke-width: 2px;
+      stroke-width: 3px;
       fill: transparent;
       stroke-linecap: round;
     }
     polygon {
-      stroke: #8800ff;
+      stroke: black;
     }
     #net {
       stroke: #ffff55;
-      stroke-width: 1px;
+      stroke-width: 3px;
     }
   </style>
   <defs>

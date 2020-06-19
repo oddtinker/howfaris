@@ -1,7 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="202px"
-  height="130px"
+  height="140px"
   xmlns:xlink="http://www.w3.org/1999/xlink">
   <title xml:lang="en">Standard bicycle\'s wheelbase</title>
   <style type="text/css">
@@ -13,6 +13,15 @@
       stroke-width: 3px;
       fill: transparent;
       stroke-linecap: round;
+    }
+    #liner {
+      stroke-width: 2px;
+      fill: transparent;
+      stroke: black;
+    }
+    #tick {
+      stroke-width: 2px;
+      stroke: #8800ff;
     }
   </style>
   <defs>
@@ -33,5 +42,7 @@
       <path d="M148 20 L168 90" />
       <path d="M149 20 C 166,16 166,26 156,26 " />
     </g>
+    <line id="tick" x1="102.5" y1="133" x2="102.5" y2="138" />
+    <path id="liner" d="M35 130 L35,138 L170,138 L170,130" />
   </g>
 </svg>

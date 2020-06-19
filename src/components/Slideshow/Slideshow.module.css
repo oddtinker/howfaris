@@ -12,10 +12,11 @@
   border: 1px solid gainsboro;
   overflow: hidden;
   display: none;
+  padding-top: 10px;
 }
 
 .SlideshowBox > h3 {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .SlideshowControls {

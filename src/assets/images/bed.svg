@@ -1,13 +1,13 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="202px"
-  height="130px"
+  height="140px"
   xmlns:xlink="http://www.w3.org/1999/xlink">
   <title xml:lang="en">Standard bed, approximately 2 meters long</title>
   <style type="text/css">
     #bed {
       stroke: black;
-      stroke-width: 2;
+      stroke-width: 2px;
       fill: white;
       stroke-linecap: round;
     }
@@ -25,13 +25,16 @@
       stroke: black;
       stroke-width: 0.5;
     }
+    #liner {
+      stroke-width: 2px;
+      fill: transparent;
+      stroke: black;
+    }
+    #tick {
+      stroke-width: 2px;
+      stroke: #8800ff;
+    }
   </style>
-  <!-- <defs>
-    <linearGradient id="duvet" gradientTransform="scale(0.6) rotate(-5)">
-      <stop stop-color="#ffffff" offset="0.4" />
-      <stop stop-color="rgb(136, 0, 255)" offset="0.9" />
-    </linearGradient>
-  </defs> -->
   <path id="pillow" d="M9,58 C0,40 66,40 57,58" />
   <g id="mattress">
     <polygon points="5,61 8,57 194,57 197,61" />
@@ -39,8 +42,9 @@
   </g>
   <g id="bed">
     <rect x="2" y="70" width="198" height="30" />
-    <rect x="1" y="2" width="4" height="126" />
-    <rect x="197" y="60" width="4" height="66" />
+    <rect x="2" y="15" width="4" height="110" />
+    <rect x="196" y="60" width="4" height="66" />
   </g>
-  
+  <line id="tick" x1="101" y1="133" x2="101" y2="138" />
+  <path id="liner" d="M4 130 L4,138 L198,138 L198,130" />
 </svg>

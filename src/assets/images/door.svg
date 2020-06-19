@@ -1,0 +1,43 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="202px"
+  height="140px"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title xml:lang="en">Standard door's height</title>
+  <style type="text/css">
+    #frame, #handle {
+      stroke: black;
+      stroke-width: 4px;
+      fill: white;
+      stroke-linecap: round;
+    }
+    #innerSquares {
+      stroke: rgb(136, 0, 255);
+      stroke-width: 4px;
+      fill: white;
+    }
+    #nameshield {
+      fill: #ffff55;
+      stroke-width: 2;
+      stroke: rgb(136, 0, 255);
+    }
+    #liner {
+      stroke-width: 2px;
+      fill: transparent;
+      stroke: black;
+    }
+    #tick {
+      stroke-width: 2px;
+      stroke: #8800ff;
+    }
+  </style>
+  <rect id="frame" x="66" y="2" width="69" height="136" />
+  <g id="innerSquares">
+    <rect x="80" y="20" width="41" height="40" />
+    <rect x="80" y="80" width="41" height="40" />
+  </g>
+  <line id="handle" x1="73" y1="70" x2="82" y2="70" />
+  <rect id="nameshield" x="95" y="30" width="11" height="5" />
+  <line id="tick" x1="50" y1="70" x2="55" y2="70" />
+  <path id="liner" d="M56 1 L50,1 L50,139 L56,139" />
+</svg>

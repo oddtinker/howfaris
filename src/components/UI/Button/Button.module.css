@@ -80,16 +80,16 @@
 }
 
 .SlideshowControls {
-  cursor: pointer;
   background-color: transparent;
+  cursor: pointer;
+  border-width: 0;
+  color: black;
+  font-size: xx-large;
+  display: inline-block;
 }
 
-.SlideshowControls:first-of-type {
-  border-width: 110px 40px 110px 0;
-  border-color: transparent rgba(212, 164, 164, 0.466) transparent transparent;
-}
+.SlideshowControls:hover {
+  color: rgb(138, 55, 210);
+  text-shadow: #FF5 0 2px;
 
-.SlideshowControls:last-of-type {
-  border-width: 110px 0 110px 40px;
-  border-color: transparent transparent transparent rgba(212, 164, 164, 0.466);
 }

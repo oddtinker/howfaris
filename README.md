@@ -13,3 +13,4 @@ Object measurements reference:
 * [Dimensions.com](https://www.dimensions.com/)
 * [Bike Gremlin](https://bike.bikegremlin.com/832/bicycle-frame-geometry/#4)
 * [Designer’s guide to COVID-19: Physical distancing, by Raimana Jones ](https://architecturenow.co.nz/articles/designers-guide-to-covid-19-physical-distancing/)
+* [Wikipedia: Standard-gauge railway](https://en.wikipedia.org/wiki/Standard-gauge_railway)

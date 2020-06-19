@@ -2,59 +2,53 @@ import bed from './assets/images/bed.svg';
 import bicycle from './assets/images/bicycle.svg';
 import trolley from './assets/images/trolley.svg';
 import escooter from './assets/images/escooter.svg';
+import warriorPose from './assets/images/warriorPose.svg';
+import railwayTrackGauge from './assets/images/railwayTrackGauge.svg';
+import door from './assets/images/door.svg';
 
 const images1 = [
   {
-    id: 'trolley1',
-    file: trolley,
-    title: '1 Average shopping cart',
-  },
-  {
     id: 'bicycle1',
     file: bicycle,
-    title: '2 Average bicycle\'s wheelbase',
+    title: 'Average bicycle\'s wheelbase',
   },
   {
     id: 'escooter1',
     file: escooter,
-    title: '3 An electric ride-share scooter',
-    actualLength: '107 cm',
+    title: 'Electric ride-share scooter',
+    actualLength: '1.07 m',
+  },
+  {
+    id: 'trolley1',
+    file: trolley,
+    title: 'Average shopping cart',
   },
 ];
 
 const images15 = [
   {
-    id: 'bicycle151',
-    file: bicycle,
-    title: 'FALSE Average bicycle\'s wheelbase 1',
+    id: 'railwayTrackGauge15',
+    file: railwayTrackGauge,
+    title: 'Standard-gauge railway, in use in Europe, North America and Australia',
+    actualLength: '1.43 m',
   },
   {
-    id: 'bicycle152',
-    file: bicycle,
-    title: 'FALSE Average bicycle\'s wheelbase 2',
-  },
-  {
-    id: 'bicycle153',
-    file: bicycle,
-    title: 'FALSE Average bicycle\'s wheelbase 3',
+    id: 'warriorPose15',
+    file: warriorPose,
+    title: 'Two outstretched arms',
   },
 ];
 
 const images2 = [
   {
-    id: 'bed21',
+    id: 'bed2',
     file: bed,
-    title: 'Standard bed 1',
+    title: 'Standard bed\'s length',
   },
   {
-    id: 'bed22',
-    file: bed,
-    title: 'Standard bed 2',
-  },
-  {
-    id: 'bed23',
-    file: bed,
-    title: 'Standard bed 3',
+    id: 'door2',
+    file: door,
+    title: 'Standard door\'s height',
   },
 ];
 

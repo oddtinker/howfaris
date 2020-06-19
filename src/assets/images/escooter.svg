@@ -1,7 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="202px"
-  height="130px"
+  height="140px"
   xmlns:xlink="http://www.w3.org/1999/xlink">
   <title xml:lang="en">For-rent electric scooter</title>
   <style type="text/css">
@@ -16,7 +16,7 @@
     }
     #stick {
       stroke-width: 4px;
-      stroke: #555555;
+      stroke: #333333;
       stroke-linecap: round;
     }
     #stick :last-child {
@@ -31,7 +31,7 @@
     }
     #handle {
       stroke-width: 4px;
-      stroke: #555555;
+      stroke: #444444;
       stroke-linecap: round;
     }
   </style>

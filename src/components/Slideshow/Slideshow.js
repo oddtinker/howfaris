@@ -63,11 +63,13 @@ class Slideshow extends Component {
       {!content ? <Loading loadingText="Choose the distance above!" /> :
         <div className={classes.Slideshow}>
           <Button
+          buttonText="<"
           buttonStylingType="slideshowControls"
           clickHandler={this.handlePrevSlide}
           />
           {content}
           <Button
+          buttonText=">"
           buttonStylingType="slideshowControls"
           clickHandler={this.handleNextSlide}
           />
