@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import classes from './RadioInput.module.css';
-import HoverBlock from '../HoverBlock/HoverBlock';
+import InfoBlock from '../InfoBlock/InfoBlock';
 
 const RadioInput = props => {
   const [isVisible, setVisibility] = useState(false);
   let styling = [classes.RadioInput];
   if (props.currentChoice === props.radioInputLabel) {
-    styling.push(classes.Picked);
+    styling.push(classes.Selected);
   }
   return (
     <div
@@ -25,7 +25,7 @@ const RadioInput = props => {
           {props.radioInputLabel}
         </label>
       </div>
-      {isVisible ? <HoverBlock hoverText={props.entities} /> : null}
+      {isVisible ? <InfoBlock text={props.entities} isHovering={true} /> : null}
     </div>
 )};
 

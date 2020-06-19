@@ -2,22 +2,22 @@ import React from 'react';
 import classes from './Button.module.css';
 
 const button = (props) => {
-  let concatenatedClasses = [classes.Button];
+  let joinedClasses = [classes.Button];
   switch (props.buttonStylingType) {
     case 'cross':
-      concatenatedClasses.push(classes.Cross);
+      joinedClasses.push(classes.Cross);
       break;
     case 'header':
-      concatenatedClasses.push(classes.HeaderButton);
+      joinedClasses.push(classes.HeaderButton);
       break;
     case 'footer':
-      concatenatedClasses.push(classes.FooterButton);
+      joinedClasses.push(classes.FooterButton);
       break;
     case 'switchBlock':
-      concatenatedClasses.push(classes.SwitchBlockButton);
+      joinedClasses.push(classes.SwitchBlockButton);
       break;
     case 'slideshowControls':
-      concatenatedClasses[0] = classes.SlideshowControls;
+      joinedClasses[0] = classes.SlideshowControls;
       break;
     default:
       break;
@@ -25,7 +25,7 @@ const button = (props) => {
   return (
     <button
     type="button"
-    className={concatenatedClasses.join(' ')}
+    className={joinedClasses.join(' ')}
     onClick={props.clickHandler}>{props.buttonText}</button>
   )
 }

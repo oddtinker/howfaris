@@ -8,14 +8,14 @@
   min-height: 2rem;
   min-width: 4rem;
   font-size: 1rem;
-  padding: 0.2rem;
+  padding: 0.5rem;
 }
 
 .RadioInput > label {
   height: 100%;
 }
 
-.Picked {
+.Selected {
   box-shadow: inset 0px -2px rgb(116, 46, 177);
   font-weight: bold;
 }

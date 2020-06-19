@@ -38,6 +38,14 @@
   border-top: 2px dashed pink;
 }
 
+@media (max-height: 500px) {
+  .FooterButton, .FooterButton:hover {
+    font-size: 0.7rem;
+    width: 20vw;
+    padding: 0;
+  }
+}
+
 .Cross {
   position: absolute;
   cursor: pointer;

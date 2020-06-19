@@ -1,12 +1,10 @@
 .Main {
   text-align: center;
   padding: 10vmin;
+  margin-bottom: 5vmin;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  /* align-content: space-around; */
-  /* justify-content: space-around; */
-  height: 50vmin;
 }
 
 .Main h1 {

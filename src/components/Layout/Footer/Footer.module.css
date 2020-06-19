@@ -7,3 +7,16 @@
   text-align: center;
   z-index: 900;
 }
+
+@media (max-height: 500px) {
+  .Footer {
+    opacity: 0.5;
+    height: 5vh;
+    position: fixed;
+    left: 0;
+  }
+  .Footer:hover {
+    opacity: 1;
+    transition: all 0.3s ease-out;
+  }
+}

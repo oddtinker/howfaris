@@ -1,0 +1,19 @@
+.InfoBlockHover {
+  display: block;
+  position: fixed;
+  z-index: 250;
+  color: rgb(18, 18, 18);
+  border: 1px dashed rgb(230, 228, 228);
+  padding: 0 6px;
+  background-color: rgba(252, 244, 252, 0.9);
+  font-size: medium;
+}
+
+.InfoBlockStatic {
+  display: block;
+  position: relative;
+  color: rgb(18, 18, 18);
+  background-color: transparent;
+  font-size: medium;
+  max-width: 65%;
+}

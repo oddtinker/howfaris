@@ -13,8 +13,7 @@ const switchBlock = props => {
     currentChoice={props.currentChoice}
     entities={item.entities} />);
   return (
-    <form
-    className={props.switchType === 'sidebar' ? classes.Sidebar : classes.SwitchBlock}>
+    <form className={classes.SwitchBlock}>
       {data}
     </form>
 )};
