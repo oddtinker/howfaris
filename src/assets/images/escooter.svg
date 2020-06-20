@@ -34,6 +34,15 @@
       stroke: #444444;
       stroke-linecap: round;
     }
+    #liner {
+      stroke-width: 2px;
+      fill: transparent;
+      stroke: black;
+    }
+    #tick {
+      stroke-width: 2px;
+      stroke: #8800ff;
+    }
   </style>
   <defs>
     <circle id="wheel" cy="120" r="10" />
@@ -59,4 +68,6 @@
     <path d="M50 120 L146 120" />
     <path d="M146 120 q-2,-14 14,-16" />
   </g>
+  <line id="tick" x1="102.5" y1="134" x2="102.5" y2="139" />
+  <path id="liner" d="M50 133 L50,139 L163,139 L163,133" />
 </svg>
