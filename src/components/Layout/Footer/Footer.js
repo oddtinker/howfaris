@@ -1,16 +1,14 @@
 import React from 'react';
 import classes from './Footer.module.css';
 import Button from '../../UI/Button/Button';
+import Link from '../../UI/Link/Link';
 
 const footer = () => (
   <footer className={classes.Footer}>
-    <a
-      href="https://github.com/larisachristie/howfaris"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Hire me!">
-      <Button buttonText="GitHub" buttonStylingType="footer"/>
-      </a>
+    <Link
+      urlAddress="https://github.com/larisachristie/howfaris"
+      urlTitle="Hire me!"
+      urlText={<Button buttonText="GitHub" buttonStylingType="footer"/>}/>
   </footer>
 )
 
