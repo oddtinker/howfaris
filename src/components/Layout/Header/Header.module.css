@@ -1,6 +1,8 @@
 .Header {
   width: 100%;
   min-height: 20px;
+  position: relative;
+  left: 0;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -12,4 +14,24 @@
   font-size: 10px;
   color: rgb(251, 247, 254);
   z-index: 1000;
+}
+
+@media (max-height: 500px) {
+  .Header {
+    opacity: 0.5;
+    height: 10vh;
+    position: fixed;
+    left: 0;
+    min-height: 8vh;
+  }
+  .Header button {
+    font-size: small;
+  }
+  .Header img {
+    max-width: 8vw;
+  }
+  .Header:hover {
+    opacity: 1;
+    transition: all 0.3s ease-out;
+  }
 }

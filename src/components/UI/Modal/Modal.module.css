@@ -1,5 +1,5 @@
 .Modal {
-  position: fixed;
+  position: absolute;
   z-index: 250;
   background-color: white;
   width: 70%;
@@ -10,7 +10,6 @@
   top: 15%;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
-  max-height: 100%;
 }
 
 .CloseButton {

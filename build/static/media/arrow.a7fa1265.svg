@@ -1,0 +1,12 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20px"
+  height="20px">
+  <style>
+  path {
+    stroke: rgb(168, 70, 255);
+    stroke-width: 2px;
+    fill: transparent;
+  }</style>
+  <path d="M2,18 L10,2 L18,18"/>
+</svg>
