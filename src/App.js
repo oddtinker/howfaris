@@ -23,7 +23,7 @@ class App extends React.Component {
         <Modal
         handleBackdrop={this.backdropHandler}
         isBackdropDown={this.state.isBackdropDown}>
-          <About handleBackdrop={this.backdropHandler}/>
+          <About isBackdropDown={this.state.isBackdropDown} />
         </Modal>
         <Main />
         <Footer />

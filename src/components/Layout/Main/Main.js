@@ -10,7 +10,7 @@ class Main extends Component {
       {
         distanceM: '1 meter',
         distanceF: 'just over 3 feet',
-        entities: 'the WHO, the EU'
+        entities: 'the UK (from July 4), the WHO, the EU'
       },
       {
         distanceM: '1.5 meters',
@@ -20,7 +20,7 @@ class Main extends Component {
       {
         distanceM: '2 meters',
         distanceF: 'about 6.5 feet',
-        entities: 'Canada, the UK, the US'
+        entities: 'the UK (until July 4), Canada, the US'
       },
     ],
     currentChoice: '',
@@ -33,7 +33,7 @@ class Main extends Component {
     const fullInfo = this.state.options.find(element => element.distanceM === this.state.currentChoice);
     return (
     <main className={classes.Main}>
-      {!this.state.currentChoice ? <h1>Your physical distancing guide<br />How far is... ?</h1> : <h1>How far is... {this.state.currentChoice}?</h1>}
+      {!this.state.currentChoice ? <h1>Your physical distancing guide<br />How far is...</h1> : <h1>How far is... {this.state.currentChoice}?</h1>}
       <SwitchBlock
         options={this.state.options}
         currentChoice={this.state.currentChoice}

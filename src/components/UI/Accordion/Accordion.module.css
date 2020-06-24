@@ -1,0 +1,37 @@
+.TopLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: bolder;
+}
+
+.TopLine h3 {
+  margin-right: 10px;
+}
+
+.Hidden {
+  max-height: 0;
+  overflow-y: hidden;
+  opacity: 0;
+  transform: all 0.4s ease;
+}
+
+.Open {
+  overflow-y: visible;
+}
+
+.ExpandArrow {
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+.ExpandArrow:hover {
+  cursor: pointer;
+}
+
+.ExpandArrow.Clicked {
+  transform: rotate(0deg);
+  transition-duration: 0.5s;
+}
