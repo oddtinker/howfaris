@@ -10,36 +10,28 @@
   border-bottom: 2px dashed white;
   color: white;
   outline: none;
-  padding: 10px;
-  margin: 4px;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  padding: 1rem;
 }
 
-.HeaderButton:hover {
-  cursor: pointer;
-  color: rgb(168, 70, 255);
-  background-color: #FF5;
-  border-bottom: 2px dashed rgb(168, 70, 255);
+@media (min-height: 30rem) {
+  .HeaderButton {
+    padding: 0.8rem;
+    font-size: 1.3rem;
+  }
 }
 
 .FooterButton {
   border-top: 2px dashed white;
   color: white;
   outline: none;
-  padding: 10px;
+  padding: 0.8rem;
   font-size: 1.1rem;
   text-decoration: underline;
 }
 
-.FooterButton:hover {
-  cursor: pointer;
-  color: rgb(168, 70, 255);
-  background-color: white;
-  border-top: 2px dashed pink;
-}
-
-@media (max-height: 500px) {
-  .FooterButton, .FooterButton:hover {
+@media (max-height: 30rem) {
+  .FooterButton {
     font-size: 0.7rem;
     width: 20vw;
     padding: 0;
@@ -53,16 +45,12 @@
   width: 2rem;
   margin: -30px 0px;
   font-size: medium;
-  padding: 3px;
+  padding: 0.2rem;
   background-color: transparent;
   color: black;
   border: thistle solid 1px;
   border-radius: 30px;
   text-align: center;
-}
-
-.Cross:hover {
-  background-color: thistle;
 }
 
 .SwitchBlockButton {
@@ -79,14 +67,6 @@
   font-weight: bold;
 }
 
-.SwitchBlockButton:hover {
-  box-shadow: inset 0px -2px rgb(168, 70, 255);
-}
-
-.SwitchBlockButton:hover:active {
-  box-shadow: inset 0 0 1px rgb(168, 70, 255);
-}
-
 .SlideshowControls {
   background-color: transparent;
   cursor: pointer;
@@ -96,8 +76,30 @@
   display: inline-block;
 }
 
-.SlideshowControls:hover {
-  color: rgb(138, 55, 210);
-  text-shadow: #FF5 0 2px;
-
+@media (hover: hover) {
+  .SlideshowControls:hover {
+    color: rgb(138, 55, 210);
+    text-shadow: #FF5 0 2px;
+  }
+  .Cross:hover {
+    background-color: thistle;
+  }
+  .SwitchBlockButton:hover {
+    box-shadow: inset 0px -2px rgb(168, 70, 255);
+  }
+  .SwitchBlockButton:hover:active {
+    box-shadow: inset 0 0 1px rgb(168, 70, 255);
+  }
+  .FooterButton:hover {
+    cursor: pointer;
+    color: rgb(168, 70, 255);
+    background-color: white;
+    border-top: 2px dashed pink;
+  }
+  .HeaderButton:hover {
+    cursor: pointer;
+    color: rgb(168, 70, 255);
+    background-color: #FF5;
+    border-bottom: 2px dashed rgb(168, 70, 255);
+  }
 }

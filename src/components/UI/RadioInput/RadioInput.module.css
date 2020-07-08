@@ -19,9 +19,10 @@
   box-shadow: inset 0px -2px rgb(116, 46, 177);
   font-weight: bold;
 }
-
-.RadioInput:hover {
-  box-shadow: inset 0px -2px rgb(168, 70, 255);
+@media (hover: hover) {
+  .RadioInput:hover {
+    box-shadow: inset 0px -2px rgb(168, 70, 255);
+  }
 }
 
 .RadioInput:active {

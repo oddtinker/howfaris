@@ -1,7 +1,7 @@
 .Main {
   text-align: center;
-  padding: 10vmin;
-  margin-bottom: 5vmin;
+  padding: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -9,10 +9,10 @@
 
 .Main h1 {
   font-size: x-large;
-  margin: 2vh;
+  margin: 2rem;
 }
 
 .Main h2 {
   font-size: large;
-  margin: 2vh;
+  margin: 2rem;
 }
