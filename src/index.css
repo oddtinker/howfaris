@@ -3,3 +3,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Quattrocento Sans', 'Open Sans', sans-serif;
 }
+
+body::-webkit-scrollbar {
+  width: 0;
+}

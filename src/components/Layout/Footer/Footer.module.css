@@ -1,22 +1,27 @@
 .Footer {
+  box-sizing: border-box;
   background-color: pink;
   width: 100%;
   position: fixed;
   left: 0;
   bottom: 0;
   text-align: center;
-  z-index: 900;
+  z-index: 10;
+  opacity: 0.5;
+  height: 6vh;
+  min-height: 40px;
 }
 
-@media (max-height: 500px) {
-  .Footer {
-    opacity: 0.5;
-    height: 5vh;
-    position: fixed;
-    left: 0;
-  }
+@media (hover: hover) {
   .Footer:hover {
     opacity: 1;
     transition: all 0.3s ease-out;
+  }
+}
+
+@media (min-height: 30rem) {
+  .Footer {
+    opacity: 1;
+    min-height: 50px;
   }
 }

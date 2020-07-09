@@ -10,7 +10,7 @@ class Main extends Component {
       {
         distanceM: '1 meter',
         distanceF: 'just over 3 feet',
-        entities: 'the UK (from July 4), the WHO, the EU'
+        entities: 'the WHO, the EU, the UK gov\'t'
       },
       {
         distanceM: '1.5 meters',
@@ -20,7 +20,7 @@ class Main extends Component {
       {
         distanceM: '2 meters',
         distanceF: 'about 6.5 feet',
-        entities: 'the UK (until July 4), Canada, the US'
+        entities: 'the NHS, Canada, the US'
       },
     ],
     currentChoice: '',
@@ -43,6 +43,7 @@ class Main extends Component {
       fullInfo={fullInfo}
       isHovering={false} /> : null }
       <Slideshow currentChoice={this.state.currentChoice} />
+      <div className={classes.Placeholder}></div>
     </main>
 )}};
 

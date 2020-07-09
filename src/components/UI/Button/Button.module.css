@@ -11,7 +11,7 @@
   color: white;
   outline: none;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 @media (min-height: 30rem) {
@@ -25,16 +25,15 @@
   border-top: 2px dashed white;
   color: white;
   outline: none;
-  padding: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
   text-decoration: underline;
 }
 
-@media (max-height: 30rem) {
+@media (min-height: 30rem) {
   .FooterButton {
-    font-size: 0.7rem;
-    width: 20vw;
-    padding: 0;
+    font-size: 1.3rem;
+    padding: 0.8rem;
   }
 }
 

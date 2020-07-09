@@ -16,3 +16,8 @@
   font-size: large;
   margin: 2rem;
 }
+
+.Placeholder {
+  height: 8vh;
+  visibility: hidden;
+}
